@@ -11,7 +11,7 @@ function Navbar() {
          <Navitems   key={link.id} link={link} />
         ))}
 
-         <div className='w-fiull border bg-gray-300 '></div>
+         <div className='w-full border bg-gray-300 '></div>
         {navLinks.slice(4,6).map((link) => (
           <Navitems key={link.id} link={link}/>
         ))}
