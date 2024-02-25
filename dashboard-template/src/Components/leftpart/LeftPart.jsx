@@ -2,6 +2,7 @@ import React from 'react'
 import { TodayInvestDB } from './utility/LeftPartdata';
 import InvestList from './InvestList'
 import Card from './Card';
+import { CardDB } from './utility/CardData';
 function LeftPart() {
   return (
     <div className='col-span-2 min-h-[90vh] border-r border-gray-300 item-start justify-start flex-flex-col w-full'>
@@ -14,7 +15,12 @@ function LeftPart() {
      ) )}
     </div>
     <div className='grid justify-items-center  mt-10'>
-      <Card/>
+      { CardDB.map((data)=>(
+        <Card data={data} key={data.key}/>
+
+      ))
+      
+}
     </div>
     </div>
     </div>
