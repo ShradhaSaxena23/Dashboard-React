@@ -14,9 +14,9 @@ import {SearchIcon,UserCircleIcon,BellIcon} from  '@heroicons/react/outline'
 function Header() {
   return (
     <div>
-      <nav className="bg-gray-100 p-4 flex justify-between items-center">
+      <nav className="bg-gray-300 p-4 flex justify-between items-center">
         {/* Company Name */}
-        <div className="text-white text-lg font-semibold">Company Name</div>
+        <div className="text-black text-lg font-semibold">MyDashboard</div>
 
         {/* Search Bar - Hidden on Small Screens */}
         <div className="hidden sm:flex flex-1 mx-4 relative"> {/* Hide on small screens */}
@@ -25,7 +25,7 @@ function Header() {
           </span>
           <input
             type="text"
-            className="w-60 py-0 px-10 rounded-md bg-blue-300 text-white focus:outline-none focus:bg-gray-600"
+            className="w-60 py-0 px-10 rounded-md bg-gray-100 text-white focus:outline-none focus:bg-gray-600"
             placeholder="Search..."
           />
         </div>

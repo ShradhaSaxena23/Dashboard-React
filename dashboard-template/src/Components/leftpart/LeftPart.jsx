@@ -15,11 +15,16 @@ function LeftPart() {
     <div className='w-full space-y-5 overflow-y-auto max-h-[350px] py-6 scrollbar-hide'>
    { TodayInvestDB.map((item)=>(
     <InvestList item={item} key={item.id}/>
+    
      ) )}
+     <div className="w-full border border-black-300"></div>
+
     </div>
     <div className='grid justify-items-center mt-10'>
     
-      { 
+      
+      
+    { 
       CardDB.map((data)=>(
         <Card data={data} key={data.id}/>
         
@@ -27,6 +32,11 @@ function LeftPart() {
      
       
 }
+        
+    
+     
+      
+
 
     </div>
     </div>

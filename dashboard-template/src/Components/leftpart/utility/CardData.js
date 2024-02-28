@@ -6,12 +6,12 @@ export const CardDB=[
       },
       {
         id: 1,
-        title: "mid term",
+        title: "Mid term",
         desc:  "CAGR 14.45% ,mid intrest rates and low inflation.",
       },
       {
         id: 2,
-        title: "short term",
-        desc:  "CAGR 8.5% ,low intrest rates and low inflation."
-      },
+        title: "Short term",
+        desc:  "CAGR 8.15% ,low intrest rates and low inflation."
+      }
 ]

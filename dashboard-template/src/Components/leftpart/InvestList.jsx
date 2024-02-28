@@ -22,7 +22,10 @@ function InvestList({ item }) {
         >
           {percent}
         </p>
+
       </div>
+    
+     
     </div>
   );
 }
